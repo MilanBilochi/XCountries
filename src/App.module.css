@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #f7f3f3;
+    margin: 10px;
+}
+.cardText {
+    display: flex;
+    font-weight: 600;
+    font-size: large;
+    margin: 5px!important;
+}
+.cardImage {
+    width: 100%;
+    height: 100%;
+}
